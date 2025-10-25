@@ -28,7 +28,7 @@ class WireGuardHome extends StatefulWidget {
 class _WireGuardHomeState extends State<WireGuardHome> {
   final wireguard = WireGuardFlutter.instance;
   final String interfaceName = 'SecureTunnel';
-  //get these values from your server or in order to test get from fash.ssh
+  //get these values from your server or in order to test get from fastssh.com
   //
   final String conf = '''
 [Interface]
